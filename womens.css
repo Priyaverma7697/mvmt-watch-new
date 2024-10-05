@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+
+#head1{
+    position: fixed;
+    background-color: white;
+    width: 1360px;
+    border: 1px solid rgb(247, 243, 243);
+    z-index: 500;
+
+    /* // background-color: aqua; */
+    div{
+        display: flex;
+    }
+    ul{
+        padding: 20px;
+        justify-content: space-between;
+        display: flex;
+        list-style-type: none;
+        word-spacing: 5px;
+        /* // flex-wrap: wrap; 
+        // grid-template-columns: 1fr 1fr;
+        // grid-template-rows: 50px 100px;
+        // grid-template-columns: repeat(auto-fill, 100px);
+        // position: absolute; */
+        position: relative;
+        
+    }
+    
+    .head2 a:hover{
+        
+        text-decoration: none;
+        color: red;
+        background-color: rgb(148, 132, 132);
+        /* // padding-top: 20px; */
+        top: 10px;
+
+     
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .head3{
+        i{
+            color: rgb(83, 54, 54);
+        }
+    }
+    .head3 i:hover{
+        
+        color: rgb(35, 196, 35);
+    
+    }
+    .head2{
+        word-spacing: 5px;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+.photo5 img {
+    height: 400px;
+}
+.h1{
+    position: absolute;
+    top: 190px;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    z-index: 200;
+    /* left: 50px; */
+}
+.h1 :hover{
+    color: blueviolet;
+}
+main{
+    h2{
+        font-size: 50px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.774);
+    }
+}
+.h2{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 25px;
+}
+.h2 :hover{
+    color: aqua;
+}
+.photo6{
+    display: flex;
+}
+/* my footer start from here */
+#footer{
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    height: 450px;
+    background-color: rgb(228, 216, 202);
+
+
+    .footer1{
+        margin-top: 40px;
+        text-decoration: none;
+        width: 25%;
+        word-spacing: 5px;
+        margin-left: 40px;
+        input{
+        width: 290px;
+        height: 50px;
+        border-radius: 20px;
+        border-color: white;
+        }
+    }
+   .footer2{
+        width: 25%;
+        gap: 50px;
+        margin-top: 40px;
+        margin-left: 40px;
+        a{
+            color: black;
+            text-decoration: none;
+        }  
+    }
+    .footer2:hover{
+        a{
+            text-decoration: none;
+            list-style-type: none;
+            color: blue;
+        }
+    }
+    .footer3{
+        width: 25%;
+        gap: 50px;
+        margin-top: 40px;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        
+    }
+    .footer3:hover{
+        a{
+            text-decoration: none;
+            list-style-type: none;
+            color: blue;
+        }
+
+    }
+    .footer4{
+        width: 25%;
+        gap: 50px;
+        margin-top: 40px;
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    }
+    .footer4:hover{
+        a{
+            text-decoration: none;
+            list-style-type: none;
+            color: blue;
+        }
+
+    }
+}
+@media (max-width:450px){
+    .photo5 img {
+        height: 390px;
+    }
+    .h1{
+        position: absolute;
+        top: 180px;
+        color: antiquewhite;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        z-index: 200;
+    }
+    .photo6{
+        display: block;
+    }
+    .footer1 input{
+        display: none;
+    }
+    
+}
