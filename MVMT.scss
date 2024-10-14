@@ -80,9 +80,9 @@ display: flex;
         border-color: wheat;
     }
     button:hover{
-    
         color: black;
         background-color: rgb(109, 109, 196);
+        box-shadow: 0 0 15px black;
     }
 }
 #main2{
@@ -113,6 +113,7 @@ display: flex;
     button:hover{
         color: black;
         background-color: rgb(109, 109, 196);
+        box-shadow: 0 0 10px white;
     }
 }
 .section{
@@ -164,6 +165,11 @@ display: flex;
         top: 2250px;
         z-index: 900;
     }
+    .btn3:hover{
+            color: black;
+            background-color: rgb(109, 109, 196);
+            box-shadow: 0 0 10px black;
+    }
     .btn4{
         top: 2250px;
         width: 150px;
@@ -173,6 +179,11 @@ display: flex;
         left: 80px;
         gap: 20px;
     }
+    .btn4:hover{
+        color: black;
+        background-color: rgb(109, 109, 196);
+        box-shadow: 0 0 10px black;
+}
 }
 .pari01{
     h1{
@@ -561,10 +572,9 @@ display: flex;
                 border-color: wheat;
             }
             button:hover{
-            
                 color: black;
                 background-color: rgb(109, 109, 196);
-        
+                box-shadow: 0 0 15px black;
             }
         }
         #main2{
@@ -596,6 +606,7 @@ display: flex;
             button:hover{
                 color: black;
                 background-color: rgb(109, 109, 196);
+                box-shadow: 0 0 15px black;
             }
         }
         #pari1{
